@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6466CDCF28656F4E00BB37C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6466CDCE28656F4E00BB37C1 /* Assets.xcassets */; };
 		64C88D6F28615A4B00617B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C88D6E28615A4B00617B0D /* AppDelegate.swift */; };
 		64C88D7128615A4B00617B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C88D7028615A4B00617B0D /* SceneDelegate.swift */; };
 		64C88D7328615A4B00617B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C88D7228615A4B00617B0D /* ViewController.swift */; };
 		64C88D7628615A4B00617B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C88D7428615A4B00617B0D /* Main.storyboard */; };
-		64C88D7828615A4C00617B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C88D7728615A4C00617B0D /* Assets.xcassets */; };
 		64C88D7B28615A4C00617B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C88D7928615A4C00617B0D /* LaunchScreen.storyboard */; };
 		64C88D8628615A4D00617B0D /* issa_detallesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C88D8528615A4D00617B0D /* issa_detallesTests.swift */; };
 		64C88D9028615A4D00617B0D /* issa_detallesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C88D8F28615A4D00617B0D /* issa_detallesUITests.swift */; };
@@ -36,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6466CDCE28656F4E00BB37C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C88D6B28615A4B00617B0D /* issa_detalles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = issa_detalles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C88D6E28615A4B00617B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C88D7028615A4B00617B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		64C88D7228615A4B00617B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64C88D7528615A4B00617B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64C88D7728615A4C00617B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C88D7A28615A4C00617B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C88D7C28615A4C00617B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C88D8128615A4D00617B0D /* issa_detallesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = issa_detallesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,8 +102,8 @@
 				64C88D6E28615A4B00617B0D /* AppDelegate.swift */,
 				64C88D7028615A4B00617B0D /* SceneDelegate.swift */,
 				64C88D7228615A4B00617B0D /* ViewController.swift */,
+				6466CDCE28656F4E00BB37C1 /* Assets.xcassets */,
 				64C88D7428615A4B00617B0D /* Main.storyboard */,
-				64C88D7728615A4C00617B0D /* Assets.xcassets */,
 				64C88D7928615A4C00617B0D /* LaunchScreen.storyboard */,
 				64C88D7C28615A4C00617B0D /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C88D7B28615A4C00617B0D /* LaunchScreen.storyboard in Resources */,
-				64C88D7828615A4C00617B0D /* Assets.xcassets in Resources */,
+				6466CDCF28656F4E00BB37C1 /* Assets.xcassets in Resources */,
 				64C88D7628615A4B00617B0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

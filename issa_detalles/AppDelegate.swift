@@ -1,14 +1,10 @@
-//
-//  AppDelegate.swift
-//  issa_detalles
-//
-//  Created by Juan Acuña on 20-06-22.
-//
 
 import UIKit
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
 
 
 
