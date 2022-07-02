@@ -142,6 +142,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.074509803920000006" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Botoningresar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VOk-dr-jZY"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="issa detalles logo-4" translatesAutoresizingMaskIntoConstraints="NO" id="iQ3-PZ-4M0">
                                 <rect key="frame" x="0.0" y="104" width="137" height="138"/>
@@ -197,7 +200,14 @@
                             <constraint firstAttribute="trailing" secondItem="Loc-qS-XfL" secondAttribute="trailing" constant="2" id="zey-Mx-e33"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="rKK-EZ-Kmp"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="text_contraseña" destination="9mc-8h-CuI" id="t8R-Fb-aXU"/>
+                        <outlet property="text_correo" destination="IN0-Ez-bEk" id="SYv-iU-Ueh"/>
+                        <outlet property="ver_pass" destination="Lt5-OU-tiN" id="Wxm-ge-VK7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
